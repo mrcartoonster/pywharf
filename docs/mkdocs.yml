@@ -1,2 +1,11 @@
 site_name: Pywharf
 site_description: The private PyPI server powered by flexible backends.
+theme:
+  name: material
+  palette:
+    primary: light green
+    accent: lime
+  icon:
+    repo: fontawesome/brands/github
+repo_name: pywharf/pywharf
+repo_url: https://github.com/pywharf/pywharf

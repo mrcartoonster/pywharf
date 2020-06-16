@@ -453,6 +453,32 @@ mkdocs = ">=1"
 
 [[package]]
 category = "dev"
+description = "A Material Design theme for MkDocs"
+name = "mkdocs-material"
+optional = false
+python-versions = "*"
+version = "5.3.0"
+
+[package.dependencies]
+Pygments = ">=2.4"
+markdown = ">=3.2"
+mkdocs = ">=1.1"
+mkdocs-material-extensions = ">=1.0"
+pymdown-extensions = ">=7.0"
+
+[[package]]
+category = "dev"
+description = "Extension pack for Python Markdown."
+name = "mkdocs-material-extensions"
+optional = false
+python-versions = ">=3.5"
+version = "1.0"
+
+[package.dependencies]
+mkdocs-material = ">=5.0.0"
+
+[[package]]
+category = "dev"
 description = "More routines for operating on iterables, beyond itertools"
 name = "more-itertools"
 optional = false
@@ -1011,7 +1037,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "89e938dead6f9794bd53ed0bd2063bf3706f10a8ef8262ab7fe5a36077d39ef9"
+content-hash = "6e964b7cd5407cb4525950efdc71ef5df901c30e59250ce840fc87e0ac12784d"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1246,6 +1272,14 @@ mkdocs = [
 mkdocs-awesome-pages-plugin = [
     {file = "mkdocs-awesome-pages-plugin-2.2.1.tar.gz", hash = "sha256:64964a9e14ca356d17e226f124b9157666c0de4407991fbbc4d4091527032dc1"},
     {file = "mkdocs_awesome_pages_plugin-2.2.1-py3-none-any.whl", hash = "sha256:45fb7d3d45f01cec5ad06f5dc0fd07e00359dc23d28f3a2c94e502c4ed631694"},
+]
+mkdocs-material = [
+    {file = "mkdocs-material-5.3.0.tar.gz", hash = "sha256:d2fc5e326ddc7c13a6e43592364aadd7dc3ccc5b6d4c971200e6af8d22a94f71"},
+    {file = "mkdocs_material-5.3.0-py2.py3-none-any.whl", hash = "sha256:7c76bd98bff1c846f551e302a9c1fdd14c744c9603449eccee4aa0eafc58ffe6"},
+]
+mkdocs-material-extensions = [
+    {file = "mkdocs-material-extensions-1.0.tar.gz", hash = "sha256:17d7491e189af75700310b7ec33c6c48a22060b8b445001deca040cb60471cde"},
+    {file = "mkdocs_material_extensions-1.0-py3-none-any.whl", hash = "sha256:09569c3694b5acc1e8334c9730e52b4bcde65fc9d613cc20e49af131ef1a9ca0"},
 ]
 more-itertools = [
     {file = "more-itertools-8.2.0.tar.gz", hash = "sha256:b1ddb932186d8a6ac451e1d95844b382f55e12686d51ca0c68b6f61f2ab7a507"},
